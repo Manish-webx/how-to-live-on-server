@@ -21,3 +21,5 @@ Route::resource('/shop-profile', VendorShopProfileController::class);
 Route::get('product_subcategories', [VendorProductController::class, 'productSubCategories'])->name('getproduct-subcategories');
 Route::get('product_childcategories', [VendorProductController::class, 'productChildCategories'])->name('getproduct-childcategories');
 Route::resource('/products', VendorProductController::class);
+
+Route::get('/test', [VendorProductController::class, 'productSubCategories']);
