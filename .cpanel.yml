@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/jassai/public_html/
+    - export DEPLOYPATH=/home/jassai/public_html/laravel-ecom/how-to-live-on-server/
     - /bin/cp * $DEPLOYPATH
